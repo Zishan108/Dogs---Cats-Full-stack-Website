@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+#ulist{
+    display: flex;
+
+}
+
+#ulist li{
+    list-style: none;
+    margin: 31px 50px;
+}
+
+#ulist li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#ulist li a:hover{
+    text-decoration: underline;
+    color: rgb(130, 123, 123);
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 91px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+#navbar img{
+    width: 243px;
+    height: 253px;
+    margin: -84px 0px;
+}
+
+#red{
+    background-color: red;
+    width: 100%;
+    height: 52px;
+}
+
+#wrapper-1{
+    margin-top: 200px;
+    margin-left: 48px;
+    border-radius: 12px;
+    width: 54%;
+    height: 9rem;
+}
+
+#extra{
+     color: rgb(247, 137, 134);
+  
+}
+
+#element{
+    color: red;
+}
+
+#wrapper{
+    width: 100%;
+    border: 1px solid black;
+    height: 50rem;
+    background: url("https://i.pinimg.com/originals/44/d9/8c/44d98cccb725fd3a80c0446b9b2e646d.jpg");
+    background-repeat: no-repeat; 
+    background-size: 95rem;
+
+}
+
+#wrapper-2{
+    margin-left: 13rem;
+    margin-top: 4rem;
+}
+
+#img-1{
+    border-radius: 12px;
+    height: 30rem;
+}
+
+#title{
+
+    margin-top: 30px;
+}
+
+.cards{
+
+    background-color: white;
+    height: 20rem;
+    width: 16rem;
+    margin: 0px 60px 0px 151px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#card-1{
+    background: url("https://p2.img.cctvpic.com/20091211/images/1260497088882_1260497088882_r.jpg");
+}
+
+#card-2{
+    background: url("https://media.istockphoto.com/id/528279044/photo/dry-pets-food.jpg?s=612x612&w=0&k=20&c=f5zfuWcLd3_GgdNsYjeVEyiu7HSzC8ADl1wy8BA2Op0=");
+
+    
+    background-size: 30rem;
+    background-repeat: no-repeat;
+}
+
+#card-3{
+    background: url("https://i.pinimg.com/736x/cb/43/cb/cb43cbeb87182c8f5fe2ff183513b595.jpg");
+
+    background-size: 26rem;
+    background-repeat: no-repeat;
+}
+
+
+#container{
+    display: flex;
+    margin-top: 70px;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    
+    
+}
+
+.card-div{
+    height: 8rem;
+    width: 100%;
+    margin-top: 12rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    opacity: 0.9;
+    background-color: rgb(92, 68, 54);
+    color: aliceblue;
+    
+}
+
+.text-op{
+
+    padding-top: 15px;
+}
+
+.para{
+    color: rgb(234, 99, 94);
+    font-size: 16px;
+}
+
+#clients-div{
+    background-color: aliceblue;
+    margin-top: 30px;
+}
+
+#clients-div img{
+    height: 129px;
+    width: 187px;
+    margin-left: 74px;
+    margin-top: 37px;
+    margin-right: 35px;
+}
+
+#information-container img{
+    height: 80px;
+    width: 91px;
+    margin-left: 170px;
+    margin-top: 37px;
+
+}
+
+#information-container h1{
+
+    margin-top: 15rem;
+}
+
+#information-container{
+
+    background-color: aliceblue;
+    display: flex;
+}
+
+
+#words{
+    display: flex;
+}
+
+#words p{
+
+    padding-left: 10rem;
+    margin-left: 34px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.params{
+
+    margin-left: 188px;
+    margin-top: 20px
+}
+
+#why-h1{
+
+    margin-top: 125px;
+    margin-bottom: 40px;
+}
+
+#why-2{
+
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25rem;
+    
+}
+
+#why-2 p{
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+footer{
+
+    margin-top: 60px;
+    background-color: rgb(234, 99, 94);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+
+    margin-left: 30px;
+}
+
+footer h1{
+
+    margin-left: 30px;
+}
+
+ul{
+    font-family: 'Poppins', sans-serif;
+}
+
+#zishu{
+
+    cursor: pointer;
+
+}

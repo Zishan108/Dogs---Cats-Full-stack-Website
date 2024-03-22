@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: white;
+}
+
+#ulist{
+    display: flex;
+
+}
+
+#ulist li{
+    list-style: none;
+    margin: 31px 50px;
+}
+
+#ulist li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#ulist li a:hover{
+    text-decoration: underline;
+    color: rgb(130, 123, 123);
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 91px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+#navbar img{
+    width: 243px;
+    height: 253px;
+    margin: -84px 0px;
+}
+
+#red{
+    background-color: red;
+    width: 100%;
+    height: 52px;
+}
+
+
+footer{
+
+    margin-top: 60px;
+    background-color: rgb(234, 99, 94);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+
+    margin-left: 30px;
+}
+
+footer h1{
+
+    margin-left: 30px;
+}
+
+ul{
+    font-family: 'Poppins', sans-serif;
+}
+
+#element{
+
+    color: red;
+}
+
+.texts{
+    margin-top: 40px;
+}
+
+#Text-2{
+
+    margin-top: 101px;
+}
+
+.cards{
+    outline: none;
+    border-radius: 15px;
+    height: 20rem;
+    width: 15rem;
+    border: 3px solid rgb(212, 231, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#container-1{
+    margin-left: 10rem;
+    margin-top: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 94rem;
+}
+
+#card-1{
+
+    background-image: url("https://m.media-amazon.com/images/I/61uU93ha9HL.jpg");
+    background-repeat: no-repeat;
+    background-size: 19rem;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+   
+}
+
+#card-2{
+
+    background-image: url("https://m.media-amazon.com/images/I/61e8yYu5xWL._AC_UF1000,1000_QL80_.jpg");
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+#card-3{
+
+    background-image: url("https://pawsncollars.com/cdn/shop/products/striped-t-shirt-for-dogs-pet-supplies-olchi-285267.jpg?v=1671354925&width=823");
+    background-repeat: no-repeat;
+    background-size: 14rem;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+#card-4{
+
+    background-image: url("https://m.media-amazon.com/images/I/71nkekq+JAL._AC_UF1000,1000_QL80_.jpg");
+    background-repeat: no-repeat;
+    background-size: 14rem;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.wrapper{
+
+    height: 25rem;
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.mentions{
+
+    margin-top: 20px;
+    color: red;
+}
+
+
+#zishu{
+
+    cursor: pointer;
+
+}
+
+footer{
+
+    margin-top: 60px;
+    background-color: rgb(234, 99, 94);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+
+    margin-left: 30px;
+}
+
+footer h1{
+
+    margin-left: 30px;
+}
+
+
